@@ -1,0 +1,6 @@
+Episode: 467900/2000000
+Loss: 1.7204
+Epsilon: 0.0100
+Avg Score: 28.86
+Avg Steps: 535.5
+Avg Reward: 505.46

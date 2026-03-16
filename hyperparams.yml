@@ -1,0 +1,35 @@
+snake_mlp:
+  env_id: Snake-v1
+  epochs: 1000000
+  replay_memory_size: 1000000
+  mini_batch_size: 64
+  target_dqn_sync_interval: 1000
+  epsilon_init: 1
+  epsilon_decay: 0.999985
+  epsilon_min: 0.01
+  learning_rate_a: 0.0001
+  discount_factor_g: 0.99
+
+snake_conv:
+  env_id: Snake-v1
+  epochs: 2000000
+  replay_memory_size: 1000000
+  mini_batch_size: 128
+  target_dqn_sync_interval: 2000
+  epsilon_init: 1
+  epsilon_decay: 0.99999
+  epsilon_min: 0.01
+  learning_rate_a: 0.00001
+  discount_factor_g: 0.99
+
+snake_hybrid:
+  env_id: Snake-v1
+  epochs: 2000000
+  replay_memory_size: 1000000
+  mini_batch_size: 128
+  target_dqn_sync_interval: 1500
+  epsilon_init: 1
+  epsilon_decay: 0.99999
+  epsilon_min: 0.01
+  learning_rate_a: 0.00005
+  discount_factor_g: 0.99
